@@ -98,55 +98,24 @@ p {
     height: 100%;
     font-family: var(--font-auto);
     background-color: #2589bd;
-}
-
-.benefit-lead {
     margin-bottom: var(--benefits-margin-bottom);
     color: var(--text-color);
 }
+/* removed benefit-lead, benefit-brand and benefit-cost classes and consolidated to div class="benefits"*/
 
-.benefit-brand {
-    margin-bottom: var(--benefits-margin-bottom);
-    color: var(--text-color);
-}
-
-.benefit-cost {
-    margin-bottom: var(--benefits-margin-bottom);
-    color: var(--text-color);
-}
-
-.benefit-lead h3 {
+/* removed benefit-lead h3, benefit-brand h3 and benefit-cost h3 classes and consolidated to div class="benefits" h3*/
+.benefits h3 {
     margin-bottom: var(--content-margin-bottom);
     text-align: center;
 }
+/* removed benefit-lead img, benefit-brand img and benefit-cost img classes and consolidated to div class="benefits" img*/
 
-.benefit-brand h3 {
-    margin-bottom:var(--content-margin-bottom);
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: var(--content-margin-bottom);
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* removed search-engine-optimization , benefit-brand h3 and benefit-cost h3 classes and consolidated to div class="benefits" h3*/
 
 .search-engine-optimization {
     margin-bottom: var(--body-margin-bottom);
